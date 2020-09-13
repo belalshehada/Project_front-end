@@ -1,0 +1,222 @@
+*{padding: 0; margin: 0px;}
+body{}
+a{text-decoration:none;color: #385898;}
+a:hover{text-decoration:underline;}
+.toolbar{
+    background: #3b5998;
+   border-color: #1d2a5b;
+   border-radius: 0px;
+   position:relative;
+   width: 100%;
+   height: 80px;
+}
+.toolbar_title{
+    color: #FFF;
+    font-family:Helvetica;
+    font-style:inherit;
+   position:absolute;
+   left: 14%;
+    font-size:40px;
+    padding-top:20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login_box{
+      position:absolute;
+      right:400px;
+      color: #fff;
+      font-family: Helvetica;
+      font-size: 12px;
+    font: 400 13.3333px Arial;
+    padding: 15px;
+    font-weight: bold;
+}
+.email_input1,.password_input1{
+   width: 150px;
+   height: 20px;
+}
+ul {
+    list-style: none;
+}
+.email_label{position: relative;right: 0px;padding-bottom: 5px}
+ .password_label{position: absolute;left: 200px;padding-bottom: 5px}
+ .email-input{position: relative;left: 300px;}
+ .password_input{position: absolute;left: 200px;}
+ .password_input:hover{border: none;}
+ .button_Log{position: absolute;left: 380px;margin:0;padding:0;background:#4267b2;width:60px;color: #fff;font-family: Helvetica, Arial, sans-serif;  font-size: 12px; }
+.forgot_account{position: absolute;left:200px;color: #9cb4d8;width:100%;padding:4px;text-decoration:none;}
+.forgot_account:hover{text-decoration:underline;}
+
+ul li{
+ display: inline;
+    padding-left: 10px;
+    
+}
+.form1{background: #DDD;width: 100%;height: 90%;}
+form{ 
+width: 880px;
+ height: 50%;
+ margin: auto auto;
+ margin:auto 550px auto 550px;
+ padding: 30px;
+}
+.info_form{
+ font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+   
+}
+ .inputtext_firstname,.inputtext_lastname{
+  width:194.5px;
+ height:39px;
+ padding:8px 10px;
+ border-radius: 5px;
+ margin-left: 5px;
+ margin: 2px;
+}
+.inputtext_Mobilenumber,.inputtext_password{
+  width:399px;
+ height:39px;
+  border-radius: 5px;
+   padding:8px 10px;
+   margin: 4px;
+  
+  
+}
+h1{
+ font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+ font-size: 40px;
+ position:relative;
+}
+.p_title{
+ font-size: 22px;
+ line-height: 28px;
+ color: #4b4f56;
+margin: 10px;
+padding: 
+display: block;
+ 
+}
+.birthday_form{
+position: absolute;
+top: 320px;
+font-family: inherit;
+ color: #90949c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+select{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+    text-align: center;
+    display: inline-block;
+     margin-top: 8px;
+}
+.birthday-help{
+  padding-bottom: 5px;   
+}
+.gender_form{
+ position: absolute;
+top: 420px;
+font-family: inherit;
+ color: #90949c;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gender_input{
+ margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;   
+}
+.Female,.Male,.Custom{
+ padding: 0 10px 0 3px;
+     color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    font-family:inherit;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.gender_span{
+ margin-top: 10px;
+}
+.policy{
+ display: block;
+     color: #777;
+    font-size: 13px;
+    width: 316px;
+     position: absolute;
+     top: 480px;
+     font-family: inherit;
+     line-height: 1.34;
+}
+
+.button_signup{
+  position: absolute;
+top: 580px;
+background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+        min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    font-size: 19px;
+        border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.language_div{
+ align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    color: #737373;
+    position: absolute;
+    margin:100px 180px;
+    font-family: inherit;
+    line-height: 1.34;
+    text-align: center;
+}
+.button_add{font-size: 20px;color: #737373;font-weight: bold;width: 30px;height: 25px;}
+.div_box{
+  align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    color: #737373;
+    position: absolute;
+    bottom:-310px;
+    margin:100px 180px;
+    font-family: inherit;
+    line-height: 1.34;
+    word-spacing:5px;
+    font-size: 16px;
+    
+}
+hr{
+ opacity:.5;
+ margin: 5px;
+}
+.bottom_2020{
+ position: absolute;
+    bottom:-260px;
+    margin:200px 10px;
+      color: #737373;
+      font-size: 14px;
+      font-family: inherit;
+}
+
+
+
+
